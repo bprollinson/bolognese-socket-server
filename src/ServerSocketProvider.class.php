@@ -1,6 +1,6 @@
 <?php
 
-require_once('ServerSocketConnection.class.php');
+require_once(dirname(__FILE__) . '/ServerSocketConnection.class.php');
 
 class ServerSocketProvider
 {
